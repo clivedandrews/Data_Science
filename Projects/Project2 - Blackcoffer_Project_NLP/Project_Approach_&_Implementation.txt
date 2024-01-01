@@ -1,0 +1,30 @@
+APPROACH TO ARRIVING AT THE SOULTION FOR THIS ASSIGNMENT:
+
+1) Reading the URL_ID and associated URL from the input file in order to get the content from the URL using the web scrapping python library "BeautifulSoup".
+2) In order to ensure that only specific content from each URL is extracted, we identified the concerned html tags and only extracted the content from those particular tags.
+Example: The title we extracted from the header 'h1' tag and the article text from the paragraph 'p' tag.
+3) For URLs that have the required tags, we are able to extract the Title and Article text and save them in a text file with the URL_ID as the file name in an output directory (in our case 'Article_Text_Output').
+However, for the URLs in which we could not find the required Title or Article text content, we don't create any file in the output directory.
+4) We read all the files in the StopWords directory to add them to a given set variable. However, we ensure that we only extract the stop words and not additional content in those files by incorporating the necessary regular expression.
+We additionally add the stop words extracted from the stopwords english package.
+5) We read the positive and negative words (that are not present in our stopwords list) stored as files in the "MasterDictionary" and segragate them into two separate lists i.e., positive and negative and store them as a dictionary with the positive and negative keys and values as the respective lists.
+6) We create a function to identify the sentences in each article text file (excluding all characters other than words and spaces).
+7) We create a function to identify the number of syllables based on a given word passed to it as a parameter.
+8) We create a function to get the count of pronouns based on the Article text file passed to it as a parameter. We ensure that US is not considered as a Pronoun and only case sensitive us is considered as a pronoun.
+9) Now we read each Article text file in the output directory to get the variables like count of sentences and count of pronouns based on the file and the variables count of words, count of positive words, count of negative words, count of syllables based on words present in each file.
+10) Based on these base variables, we extract the remaining variables required such as syllables, complex words, polarity score, subjectivity score, syllable count per word, average sentence length, percentage complex words, fog index, average number of words per sentence and average word length.
+11) Once we get the required variable values while reading each Article text file, we save them as values in a Dictionary in order to have all data present in one object, ready to be viewed whenever wanted.
+12) In order to create the required output file, we try and understand the different columns needed, the sequence and names of the columns. To extract the values as such we save the dictionary as a dataframe with the same sequence and excluding the irrelivant columns.
+13) We create the output file by saving the dataframe as an Excel file using the to_excel package in Python.
+Note: For the URLs 36 and 49, the link does not have any content and only shows the error 'Ooops... Error 404' and therefore for these, the output data values have been kept as 0.
+
+
+EXECUTION PROCESS:
+
+1) To ease the processing of each an every step, we have saved the python file as a 'Blackcoffer_Assignment_NLP.ipynb' file, ready to be executed.
+2) We can create a folder in any directory but ensure that the folder contains the mentioned 'Blackcoffer_Assignment_NLP.ipynb' file, the 'Input.xlsx' file and the Directories i.e., MasterDirectory and StopWords (The name of the files and directories should be exactly the same as that specified).
+3) We open the python .ipynb file and run all the lines of code, it will create the output directory "Article_Text_Output", the individual Article text files as well as the final output file "Output Data Structure.xlsx" as part of the execution.
+
+NOTE: Please ensure that proper permissions are given for the Python file and the directory in order to create new directories and the output files that are needed as part of the processing.
+
+DO LET ME KNOW IF YOU ARE HAVING ANY ISSUES AND I WILL BE GLAD TO GIVE THE SOLUTIONS NEEDED.
