@@ -1,5 +1,3 @@
-# https://github.com/pavanwanjari/StockPrice_ModelDeployment_Streamlit/blob/main/Model_Deployment_Streamlit/app.py
-# -*- coding: utf-8 -*-
 """
 Created on Sat Jan 20 10:42:05 2024
 
