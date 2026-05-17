@@ -36,55 +36,55 @@ The purpose of this project is to create a prediction model to predict the stock
 
 ## EDA (Exploratory Data Analysis)
  - Reading the data from Yahoo Finance.com that was downloaded as Infosys_BSE.csv file & took duration from 2000-2023 years
-  ![EDA](images/p1StPr_eda1.jpg)
- (images/p1StPr_eda2.jpg)
+ ![EDA](images/p1StPr_eda1.jpg)
+ ![EDA](images/p1StPr_eda2.jpg)
 
  
  - Data is checked , and there is no null value present in the dataset .  Also, we got to know the datatype of the columns
- (images/p1StPr_eda3.jpg)
+ ![EDA](images/p1StPr_eda3.jpg)
 
  - We performed all the statistics , we got to know the main values of  mean, standard deviation , min-max.
-  (images/p1StPr_eda4.jpg)
+ ![EDA](images/p1StPr_eda4.jpg)
 
  - Dropping columns not needed
- (images/p1StPr_eda5.jpg)
+ ![EDA](images/p1StPr_eda5.jpg)
 
  - Checking missing values
  - Checking for duplicates
- (images/p1StPr_eda6.jpg)
+ ![EDA](images/p1StPr_eda6.jpg)
 
  - Renaming columns
- (images/p1StPr_eda7.jpg)
+ ![EDA](images/p1StPr_eda7.jpg)
 
  - Converting DATE column to index
- (images/p1StPr_eda8.jpg)
- (images/p1StPr_eda9.jpg)
+ ![EDA](images/p1StPr_eda8.jpg)
+ ![EDA](images/p1StPr_eda9.jpg)
 
 ## Visualization
 
-(images/p1StPr_eda10.jpg)
-(images/p1StPr_eda11.jpg)
-(images/p1StPr_eda12.jpg)
-(images/p1StPr_eda13.jpg)
-(images/p1StPr_eda14.jpg)
-(images/p1StPr_eda15.jpg)
-(images/p1StPr_eda16.jpg)
-(images/p1StPr_eda17.jpg)
-(images/p1StPr_eda18.jpg)
-(images/p1StPr_eda19.jpg)
-(images/p1StPr_eda20.jpg)
-(images/p1StPr_eda21.jpg)
-(images/p1StPr_eda22.jpg)
-(images/p1StPr_eda23.jpg)
-(images/p1StPr_eda24.jpg)
-(images/p1StPr_eda25.jpg)
-(images/p1StPr_eda26.jpg)
-(images/p1StPr_eda27.jpg)
-(images/p1StPr_eda28.jpg)
-(images/p1StPr_eda29.jpg)
-(images/p1StPr_eda30.jpg)
-(images/p1StPr_eda31.jpg)
-(images/p1StPr_eda32.jpg)
-(images/p1StPr_eda33.jpg)
-(images/p1StPr_eda34.jpg)
-(images/p1StPr_eda35.jpg)
+![Visualization](images/p1StPr_eda10.jpg)
+![Visualization](images/p1StPr_eda11.jpg)
+![Visualization](images/p1StPr_eda12.jpg)
+![Visualization](images/p1StPr_eda13.jpg)
+![Visualization](images/p1StPr_eda14.jpg)
+![Visualization](images/p1StPr_eda15.jpg)
+![Visualization](images/p1StPr_eda16.jpg)
+![Visualization](images/p1StPr_eda17.jpg)
+![Visualization](images/p1StPr_eda18.jpg)
+![Visualization](images/p1StPr_eda19.jpg)
+![Visualization](images/p1StPr_eda20.jpg)
+![Visualization](images/p1StPr_eda21.jpg)
+![Visualization](images/p1StPr_eda22.jpg)
+![Visualization](images/p1StPr_eda23.jpg)
+![Visualization](images/p1StPr_eda24.jpg)
+![Visualization](images/p1StPr_eda25.jpg)
+![Visualization](images/p1StPr_eda26.jpg)
+![Visualization](images/p1StPr_eda27.jpg)
+![Visualization](images/p1StPr_eda28.jpg)
+![Visualization](images/p1StPr_eda29.jpg)
+![Visualization](images/p1StPr_eda30.jpg)
+![Visualization](images/p1StPr_eda31.jpg)
+![Visualization](images/p1StPr_eda32.jpg)
+![Visualization](images/p1StPr_eda33.jpg)
+![Visualization](images/p1StPr_eda34.jpg)
+![Visualization](images/p1StPr_eda35.jpg)
