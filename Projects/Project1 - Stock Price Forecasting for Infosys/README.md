@@ -46,14 +46,20 @@ The purpose of this project is to create a prediction model to predict the stock
  - We performed all the statistics , we got to know the main values of  mean, standard deviation , min-max.
  ![EDA](images/p1StPr_eda4.jpg)
 
+
  - Dropping columns not needed
+
  ![EDA](images/p1StPr_eda5.jpg)
+
 
  - Checking missing values
  - Checking for duplicates
+
  ![EDA](images/p1StPr_eda6.jpg)
 
+
  - Renaming columns
+
  ![EDA](images/p1StPr_eda7.jpg)
 
  - Converting DATE column to index
@@ -62,29 +68,32 @@ The purpose of this project is to create a prediction model to predict the stock
 
 ## Visualization
 
-![Visualization](images/p1StPr_eda10.jpg)
-![Visualization](images/p1StPr_eda11.jpg)
-![Visualization](images/p1StPr_eda12.jpg)
-![Visualization](images/p1StPr_eda13.jpg)
-![Visualization](images/p1StPr_eda14.jpg)
-![Visualization](images/p1StPr_eda15.jpg)
-![Visualization](images/p1StPr_eda16.jpg)
-![Visualization](images/p1StPr_eda17.jpg)
-![Visualization](images/p1StPr_eda18.jpg)
-![Visualization](images/p1StPr_eda19.jpg)
-![Visualization](images/p1StPr_eda20.jpg)
-![Visualization](images/p1StPr_eda21.jpg)
-![Visualization](images/p1StPr_eda22.jpg)
-![Visualization](images/p1StPr_eda23.jpg)
-![Visualization](images/p1StPr_eda24.jpg)
-![Visualization](images/p1StPr_eda25.jpg)
-![Visualization](images/p1StPr_eda26.jpg)
-![Visualization](images/p1StPr_eda27.jpg)
-![Visualization](images/p1StPr_eda28.jpg)
-![Visualization](images/p1StPr_eda29.jpg)
-![Visualization](images/p1StPr_eda30.jpg)
-![Visualization](images/p1StPr_eda31.jpg)
-![Visualization](images/p1StPr_eda32.jpg)
-![Visualization](images/p1StPr_eda33.jpg)
-![Visualization](images/p1StPr_eda34.jpg)
-![Visualization](images/p1StPr_eda35.jpg)
+![Visualization](images/p1StPr_vis10.jpg)
+![Visualization](images/p1StPr_vis11.jpg)
+![Visualization](images/p1StPr_vis12.jpg)
+![Visualization](images/p1StPr_vis13.jpg)
+![Visualization](images/p1StPr_vis14.jpg)
+![Visualization](images/p1StPr_vis15.jpg)
+![Visualization](images/p1StPr_vis16.jpg)
+![Visualization](images/p1StPr_vis17.jpg)
+![Visualization](images/p1StPr_vis18.jpg)
+![Visualization](images/p1StPr_vis19.jpg)
+![Visualization](images/p1StPr_vis20.jpg)
+![Visualization](images/p1StPr_vis21.jpg)
+![Visualization](images/p1StPr_vis22.jpg)
+![Visualization](images/p1StPr_vis23.jpg)
+![Visualization](images/p1StPr_vis24.jpg)
+![Visualization](images/p1StPr_vis25.jpg)
+![Visualization](images/p1StPr_vis26.jpg)
+![Visualization](images/p1StPr_vis27.jpg)
+![Visualization](images/p1StPr_vis28.jpg)
+![Visualization](images/p1StPr_vis29.jpg)
+![Visualization](images/p1StPr_vis30.jpg)
+![Visualization](images/p1StPr_vis31.jpg)
+![Visualization](images/p1StPr_vis32.jpg)
+![Visualization](images/p1StPr_vis33.jpg)
+![Visualization](images/p1StPr_vis34.jpg)
+
+## Deployment
+
+![Deployment](images/p1StPr_dep35.jpg)
